@@ -1,5 +1,4 @@
-package test;
-
+package prasanna;
 import java.util.Scanner;
 
 public class HourGlass {	
