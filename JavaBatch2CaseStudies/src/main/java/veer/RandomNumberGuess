@@ -1,0 +1,38 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class RandomNumberGuess {
+	public static void main(String[] args) {
+		int guess, randomNumber, count = 0;
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Guess a number between 1 to 50");
+
+		Random random = new Random();
+
+		randomNumber = random.nextInt(50);
+
+		boolean correct = false;
+
+		while (!correct) {
+			guess = scanner.nextInt();
+
+			if (guess > randomNumber) {
+				System.out.println("Number too high, try again");
+				count++;
+			} else if (guess < randomNumber) {
+				System.out.println("Number too low, try again");
+				count++;
+			} else {
+				System.out.println("Yes, you guess right number.");
+				System.out.println(count + 1);
+
+				correct = true;
+			}
+
+		}
+		scanner.close();
+
+	}
+
+}
