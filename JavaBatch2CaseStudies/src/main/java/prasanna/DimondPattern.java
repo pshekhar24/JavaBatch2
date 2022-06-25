@@ -1,4 +1,4 @@
-package test;
+package prasanna;
 
 import java.util.Scanner;
 
