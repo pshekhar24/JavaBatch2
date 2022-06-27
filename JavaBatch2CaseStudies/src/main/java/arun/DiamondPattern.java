@@ -1,4 +1,4 @@
-package assignmentPrograms;
+package arun;
 
 import java.util.Scanner;
 
