@@ -1,0 +1,56 @@
+
+import java.util.Scanner;
+
+class Departmentss {
+
+	double Department(double input1, double input2) {
+		return input1 + input2;
+	}
+
+	double MarketingDepartment(double salary, double incentive, double travalAllowence) {
+		return salary + incentive + travalAllowence;
+
+	}
+
+}
+
+public class SalaryCalculation extends Departmentss {
+	static double salary = 0;
+	static double bonus = 0;
+	static double incentive = 0.0;
+	static double travalAllowence = 0.0;
+	static double hraAllowence = 0.0;
+
+	public static void main(String[] args) {
+
+		SalaryCalculation m = new SalaryCalculation();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter departnment name :");
+		String departmentname = scanner.nextLine();
+		salary = scanner.nextDouble();
+		if (departmentname.equalsIgnoreCase("salesDepartment")) {
+			System.out.println("seles department");
+
+			incentive = scanner.nextDouble();
+			System.out.println("Sales Department:" + m.Department(salary, incentive));
+
+		} else if (departmentname.equalsIgnoreCase("MarketingDepartment")) {
+			incentive = scanner.nextDouble();
+			travalAllowence = scanner.nextDouble();
+			System.out.println("Marketing Department:" + m.MarketingDepartment(salary, incentive, travalAllowence));
+
+		} else if (departmentname.equalsIgnoreCase("OperationDepartment")) {
+			hraAllowence = scanner.nextDouble();
+			System.out.println("operation department:" + m.Department(salary, hraAllowence));
+		} else if (departmentname.equalsIgnoreCase("hrDepartment")) {
+
+			bonus = scanner.nextDouble();
+			System.out.println("hr department:" + m.Department(salary, bonus));
+
+		} else {
+			System.out.println("plz Enter valid department name :");
+		}
+		scanner.close();
+
+	}
+}
