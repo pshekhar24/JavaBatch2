@@ -27,7 +27,7 @@ public class AdvancedCalculator extends Calculator {
 
 		String operend = null;
 		double result = 0;
-		Calculator calculator = new Calculator(isFirstValue, isSecondValue);
+		AdvancedCalculator calculator = new AdvancedCalculator(isFirstValue, isSecondValue);
 
 		switch (Operators) {
 		case 1:
