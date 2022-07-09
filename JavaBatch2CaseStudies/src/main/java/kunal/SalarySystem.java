@@ -1,4 +1,4 @@
-package com.Assignment3;
+package kunal;
 
 import java.util.Scanner;
 

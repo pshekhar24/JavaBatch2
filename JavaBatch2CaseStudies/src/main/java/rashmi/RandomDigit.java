@@ -1,4 +1,4 @@
-package Assignment;
+package rashmi;
 
 import java.util.Random;
 import java.util.Scanner;

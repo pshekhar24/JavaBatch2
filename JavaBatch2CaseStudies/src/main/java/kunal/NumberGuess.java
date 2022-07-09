@@ -1,4 +1,4 @@
-package com.Assignment2;
+package kunal;
 
 import java.util.Random;
 import java.util.Scanner;

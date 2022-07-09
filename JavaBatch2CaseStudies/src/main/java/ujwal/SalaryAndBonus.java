@@ -1,4 +1,4 @@
-package programs.com;
+package ujwal;
 
 import java.util.Scanner;
 

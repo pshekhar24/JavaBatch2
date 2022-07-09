@@ -1,4 +1,4 @@
-package testExam;
+package babul;
 
 import java.util.Scanner;
 
