@@ -2,9 +2,6 @@ package kunal;
 
 import java.util.*;
 
-interface InterfaceCalculator {
-	void calculate(double a, double b);
-}
 
 class Addition implements InterfaceCalculator {
 
