@@ -1,4 +1,4 @@
-package Assignment;
+package rashmi;
 
 import java.util.Scanner;
 

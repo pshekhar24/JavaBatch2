@@ -1,4 +1,3 @@
-package assignmentPrograms;
 
 import java.util.Scanner;
 
